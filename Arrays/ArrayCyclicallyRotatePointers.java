@@ -1,3 +1,5 @@
+// array shift  using 2 pointers, Time Complexity: O(n)
+
 import java.util.*;
 public class ArrayCyclicallyRotatePointers {
 
