@@ -21,7 +21,7 @@ public class sumContiguous {
 
     public static void main(String[] args) {
         
-        int arr[] = {2,6,7,-8,5};
+        int arr[] = {2,6,7,8,5};
 
         System.out.println("product of array element: " + product(arr) );
     
