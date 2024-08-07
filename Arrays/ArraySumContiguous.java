@@ -1,10 +1,9 @@
 // Largest Sum Contiguous Subarray (Kadane’s Algorithm)
-import java.util.*;
 public class ArraySumContiguous {
 
     static int contiguousSum(int arr[]) {
 
-        int maxsum =0, currentsum= 0;
+        int maxsum = 0, currentsum= 0;
 
         for(int i= 1; i< arr.length; i++){
 
@@ -22,9 +21,9 @@ public class ArraySumContiguous {
     }
     public static void main(String[] args)
     {
-        int[] arr = { -2, -3, 4, -1, -2, 1, 5, -3 };
+        int[] arr = { -2, -3,-8};
         System.out.println("Maximum contiguous sum is "
-                           + contiguousSum(arr));
+                       + contiguousSum(arr));
     }
     
 }
