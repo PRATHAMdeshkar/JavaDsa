@@ -13,6 +13,12 @@ public class ArrayUnionIntersection {
          }
         
          System.err.println("the union of arrays is: "+ s.toString());
+         System.err.println("the total element after union:"+ s.size());
+    }
+
+    public static void intersection(int arr1[], int n, int arr2[], int m) {
+      
+
     }
     
     public static void main(String[] args) {
